@@ -1,0 +1,84 @@
+.articles{
+    background-color:#1C222A; ;
+    &_box{
+        padding: 150px 0px;
+        max-width: 800px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h2{
+            padding-left: 22px;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &_items{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            position: relative;
+            &-item{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 40%;
+                    z-index: 10;
+                }
+                div{
+                    right: 50px;
+                    position: absolute;
+                    width: 58%;
+                    padding: 30px 40px;
+                    border-radius: 5px;
+                    background: #F2F2F2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    gap: 30px;
+                    h3{
+                        width: 100%;
+                        text-align: left;
+                        color: #1C222A;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    h3:hover{
+                        cursor: pointer;
+                        transition: .3s;
+                        color: #C84B1E;
+                    }
+                    h4{
+                        color: #1C222A;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    h5{
+                        width: 70px;
+                        text-align: right;
+                        color: #1C222A;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    h5:hover{
+                        cursor: pointer;
+                        transition: .3s;
+                        color: #C84B1E;
+                    }
+                }
+            }
+        }
+    }
+}

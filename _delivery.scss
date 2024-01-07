@@ -1,0 +1,255 @@
+.delivery{
+    background: #1C222A;
+    &_text{
+        padding: 150px 0px 40px 0px;
+        max-width: 1000px;
+        @media screen and (max-width:1650px) {
+            max-width: 800px;
+        }
+        @media screen and (max-width:1400px) {
+            max-width: 700px;
+        }
+        @media screen and (max-width:1250px) {
+            max-width: 600px;
+        }
+        margin-inline:auto ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 45px;
+        h2{
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 26px;
+            @media screen and (max-width:1650px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width:1400px) {
+                font-size: 22px;
+            }
+            @media screen and (max-width:1250px) {
+                font-size: 20px;
+            }
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &_p{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            p{
+                max-width: 730px;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        &_times{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &_item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                svg{
+
+                }
+                h3{
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    &_map{
+        padding: 50px 0px;
+        &_box{
+            display: flex;
+            &_form{
+                width: 35%;
+                height: 508px;
+                @media screen and (max-width:1650px) {
+                    height: 448px;
+                }
+                @media screen and (max-width:1400px) {
+                    height: 398px;
+                }
+                @media screen and (max-width:1200px) {
+                    height: 348px;
+                }
+                background-image:url('../img/map_back.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+                padding: 40px 60px 40px 75px;
+                position: relative;
+                .delivery_map_box_back{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+                    background-color: rgba(28, 34, 42, 0.70);
+                }
+                h1{
+                    width: 250px;
+                    z-index: 10;
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 66px;
+                    @media screen and (max-width:1650px) {
+                        font-size: 55px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        font-size: 42px;
+                    }
+                    @media screen and (max-width:1250px) {
+                        font-size: 36px;
+                    }
+                    @media screen and (max-width:1150px) {
+                        font-size: 32px;
+                    }
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 12.48px;
+                }
+                h2{
+                    z-index: 10;
+                    font-family: Roboto;
+                    font-size: 34px;
+                    @media screen and (max-width:1650px) {
+                        font-size: 29px;
+                    }
+                    @media screen and (max-width:1500px) {
+                        font-size: 25px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        font-size: 21px;
+                    }
+                    @media screen and (max-width:1250px) {
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width:1170px) {
+                        font-size: 16px;
+                    }
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 1.75px;
+                    color: #FFF;
+                }
+                h3{
+                    z-index: 10;
+                    font-family: Roboto;
+                    font-size: 21px;
+                    @media screen and (max-width:1650px) {
+                        font-size: 19px;
+                    }
+                    @media screen and (max-width:1500px) {
+                        font-size: 17px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        font-size: 15px;
+                    }
+                    @media screen and (max-width:1250px) {
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width:1150px) {
+                        font-size: 11px;
+                    }
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.75px;
+                    color: #FFF;
+                }
+                input{
+                    max-width: 310px;
+                    padding: 10px 15px;
+                    z-index: 10;
+                    background: #FFF;
+                    border-radius: 20px;
+                    text-align: left;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    @media screen and (max-width:1650px) {
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width:1650px) {
+                        font-size: 11px;
+                    }
+                    @media screen and (max-width:1650px) {
+                        font-size: 9px;
+                    }
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color:  #BDBDBD;
+                    outline: none;
+                    border: none;
+                }
+                button{
+                    max-width: 310px;
+                    padding: 10px 0px;
+                    outline: none;
+                    border: none;
+                    z-index: 10;
+                    background: #EDB021;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    @media screen and (max-width:1650px) {
+                        font-size: 17px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width:1200px) {
+                        font-size: 11px;
+                    }
+                    @media screen and (max-width:1100px) {
+                        font-size: 8px;
+                    }
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    border-radius: 20px;
+                    transition: .3s;
+                }
+                button:hover{
+                    transition: .3s;
+                    background-color: #C84B1E;
+                }
+            }
+            &_map{
+                width: 65%;
+                img{
+                    height: 508px;
+                    @media screen and (max-width:1650px) {
+                        height: 448px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        height: 398px;
+                    }
+                    @media screen and (max-width:1200px) {
+                        height: 348px;
+                    }
+                }
+            }
+        }
+    }
+}
